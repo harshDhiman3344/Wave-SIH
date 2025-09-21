@@ -19,6 +19,7 @@ function Hero() {
           </button>
         </div>
       </div>
+      
       <motion.img 
         src="diyWave.png" 
         className="waveBG" 

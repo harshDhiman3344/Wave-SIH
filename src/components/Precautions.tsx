@@ -46,18 +46,19 @@ function Precautions() {
             </div>
           </div>
           
-          <div className="precautions__video-section">
-            <h3 className="precautions__video-title">📱 Precaution Videos & Manuals</h3>
-            <div className="precautions__video-placeholder">
-              <div className="precautions__video-content">
-                <div className="precautions__video-icon">🎥</div>
-                <p>Emergency Response Video</p>
-                <p className="precautions__video-subtitle">Tsunami Safety Procedures</p>
-              </div>
-            </div>
-            <button className="precautions__video-button">
-              Watch Safety Video
-            </button>
+          <div className="precautions__video">
+            <h3 className="precautions__video-title">Precaution Videos & Manuals</h3>
+            <iframe 
+              width="100%" 
+              height="400" 
+              src="https://www.youtube.com/embed/m7EDddq9ftQ" 
+              title="How to Prepare in Case of a Tsunami | Disasters" 
+              frameBorder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerPolicy="strict-origin-when-cross-origin" 
+              allowFullScreen
+              className="precautions__video-iframe">
+            </iframe>
           </div>
         </div>
       </div>

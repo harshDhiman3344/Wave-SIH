@@ -1,5 +1,12 @@
 // FONT
-
+@use './Navigation.scss';
+@use './Hero.scss';
+@use './Weather.scss';
+@use './LatestReports.scss';
+@use './Precautions.scss';
+@use './About.scss';
+@use './Services.scss';
+@use './Footer.scss';
 @font-face {
     font-family: 'Bree';
     src: url('/BreeSerif-Regular.woff') format('woff');
@@ -12,10 +19,3 @@
   scroll-behavior: smooth;
 }
 
-@import './Navigation.scss';
-@import './Hero.scss';
-@import './LatestReports.scss';
-@import './Precautions.scss';
-@import './About.scss';
-@import './Services.scss';
-@import './Footer.scss';

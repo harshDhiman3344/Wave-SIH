@@ -1,7 +1,7 @@
 // Latest Reports Component Styles
 .reports {
   min-height: 100vh;
-  background-color: white;
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 50%, #d1d5db 100%);
   padding: 5rem 0;
 
   &__container {
@@ -17,13 +17,13 @@
     &-title {
       font-size: 3rem;
       font-weight: 700;
-      color: #111827; // gray-900
+      color: #0d47a1; // deep blue-900
       margin-bottom: 1.5rem;
     }
 
     &-description {
       font-size: 1.25rem;
-      color: #4b5563; // gray-600
+      color: #1565c0; // blue-800
       max-width: 48rem;
       margin: 0 auto;
     }

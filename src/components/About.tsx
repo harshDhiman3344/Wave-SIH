@@ -47,23 +47,23 @@ function About() {
             <h3 className="about__features-title">Key Features</h3>
             <div className="about__features-list">
               <div className="about__feature">
-                <div className="about__feature-icon about__feature-icon--blue">🌊</div>
+                <div className="about__feature-icon about__feature-icon--blue">WAVE</div>
                 <span className="about__feature-text">Real-time tsunami detection & alerts</span>
               </div>
               <div className="about__feature">
-                <div className="about__feature-icon about__feature-icon--green">📱</div>
+                <div className="about__feature-icon about__feature-icon--green">REPORT</div>
                 <span className="about__feature-text">Community-driven disaster reporting</span>
               </div>
               <div className="about__feature">
-                <div className="about__feature-icon about__feature-icon--red">🆘</div>
+                <div className="about__feature-icon about__feature-icon--red">SOS</div>
                 <span className="about__feature-text">Emergency SOS signal system</span>
               </div>
               <div className="about__feature">
-                <div className="about__feature-icon about__feature-icon--purple">🎯</div>
+                <div className="about__feature-icon about__feature-icon--purple">TARGET</div>
                 <span className="about__feature-text">Precise location-based warnings</span>
               </div>
               <div className="about__feature">
-                <div className="about__feature-icon about__feature-icon--orange">🤝</div>
+                <div className="about__feature-icon about__feature-icon--orange">SUPPORT</div>
                 <span className="about__feature-text">NGO & government coordination</span>
               </div>
             </div>

@@ -1,9 +1,8 @@
 // Services Component Styles
 .services {
   min-height: 100vh;
-  background-color: #f9fafb; // gray-50
+  background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 50%, #81d4fa 100%);
   padding: 5rem 0;
-  color: black;
   &__container {
     max-width: 80rem;
     margin: 0 auto;
