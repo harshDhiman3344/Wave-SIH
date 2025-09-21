@@ -1,4 +1,5 @@
 import '../styles/Hero.scss'
+import { motion } from 'framer-motion'
 
 function Hero() {
   return (
@@ -18,6 +19,19 @@ function Hero() {
           </button>
         </div>
       </div>
+      <motion.img 
+        src="diyWave.png" 
+        className="waveBG" 
+        alt="Wave background"
+        animate={{
+          x: [-50, 50, -50]
+        }}
+        transition={{
+          duration: 6,
+          repeat: Infinity,
+          ease: "easeInOut"
+        }}
+      />
     </section>
   )
 }

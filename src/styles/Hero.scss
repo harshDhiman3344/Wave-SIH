@@ -6,12 +6,16 @@
   align-items: center;
   justify-content: center;
   padding-top: 4rem;
+  position: relative;
+  overflow: hidden;
 
   &__container {
     text-align: center;
     max-width: 56rem;
     margin: 0 auto;
     padding: 0 1rem;
+    position: relative;
+    z-index: 2;
   }
 
   &__title {
@@ -36,8 +40,11 @@
   }
 
   &__description {
+    background-color: #00266483;
     font-size: 1.125rem;
-    color: #374151; // gray-700
+    color: #ffe9cd; // gray-700
+    padding: 10px;
+    border-radius: 20px;
     margin-bottom: 3rem;
     max-width: 32rem;
     margin-left: auto;
@@ -63,10 +70,11 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    color: rgb(255, 255, 255);
 
     &--primary {
       background-color: #2563eb; // blue-600
-      color: white;
+      
 
       &:hover {
         background-color: #1d4ed8; // blue-700
@@ -74,12 +82,22 @@
     }
 
     &--secondary {
-      background-color: #059669; // green-600
-      color: white;
+      background-color: #ff9d09; // green-600
+      
 
       &:hover {
-        background-color: #047857; // green-700
+        background-color: #bc7101; // green-700
       }
     }
+  }
+
+  .waveBG{
+    position: absolute;
+    bottom: 0;
+    width: 200vw;
+    z-index: 1;
+    opacity: 0.7;
+    pointer-events: none;
+    max-width: none !important; // Override Tailwind's max-width: 100%
   }
 }
