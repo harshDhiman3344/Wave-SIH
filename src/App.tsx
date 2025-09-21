@@ -1,9 +1,22 @@
-import './App.css'
+import './styles/App.scss'
+import Navigation from './components/Navigation'
+import Hero from './components/Hero'
+import LatestReports from './components/LatestReports'
+import Precautions from './components/Precautions'
+import About from './components/About'
+import Services from './components/Services'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="h-screen w-screen bg-white flex items-center justify-center">
-      <h1 className="text-6xl font-bold text-gray-800">wave</h1>
+    <div className="app">
+      <Navigation />
+      <Hero />
+      <LatestReports />
+      <Precautions />
+      <About />
+      <Services />
+      <Footer />
     </div>
   )
 }
