@@ -20,8 +20,15 @@ function Navigation() {
           <div className="navigation__content">
             {/* Logo */}
             <div className="navigation__logo">
-              <div className="navigation__logo-title">WAVE</div>
-              <div className="navigation__logo-subtitle">Govt. of India</div>
+              <img 
+                src="/waveLogo.png" 
+                alt="WAVE Logo" 
+                className="navigation__logo-image"
+              />
+              <div className="navigation__logo-text">
+                <div className="navigation__logo-title">WAVE</div>
+                <div className="navigation__logo-subtitle">Govt. of India</div>
+              </div>
             </div>
             
             {/* Navigation Menu */}
