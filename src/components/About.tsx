@@ -12,59 +12,55 @@ function About() {
         </div>
         
         <div className="about__content">
-          <div>
+          <div className="about__mission-card">
             <h3 className="about__mission-title">Our Mission</h3>
             <p className="about__description">
-              WAVE (Water Alert & Vigilance Engine) is a revolutionary platform designed to protect coastal communities 
-              from ocean-related natural disasters through advanced monitoring, real-time alerts, and community-driven reporting.
+              WAVE (Water Alert & Vigilance Engine) is a platform designed to protect coastal communities from ocean-related natural disasters through advanced monitoring, real-time alerts, and community-driven reporting.
             </p>
             <p className="about__description">
-              We combine cutting-edge technology with grassroots community involvement to create a comprehensive 
-              early warning system that saves lives and minimizes disaster impact.
+              We combine technology with grassroots community involvement to create a comprehensive early warning system that saves lives and minimizes disaster impact.
             </p>
-            
-            <div className="about__stats">
-              <div className="about__stat">
+            <div className="about__stats-grid">
+              <div className="about__stat-card">
                 <div className="about__stat-number about__stat-number--blue">500K+</div>
-                <p className="about__stat-label">People Protected</p>
+                <div className="about__stat-label">People Protected</div>
               </div>
-              <div className="about__stat">
+              <div className="about__stat-card">
                 <div className="about__stat-number about__stat-number--green">1200+</div>
-                <p className="about__stat-label">Coastal Areas Covered</p>
+                <div className="about__stat-label">Coastal Areas Covered</div>
               </div>
-              <div className="about__stat">
+              <div className="about__stat-card">
                 <div className="about__stat-number about__stat-number--purple">24/7</div>
-                <p className="about__stat-label">Monitoring System</p>
+                <div className="about__stat-label">Monitoring System</div>
               </div>
-              <div className="about__stat">
+              <div className="about__stat-card">
                 <div className="about__stat-number about__stat-number--orange">98%</div>
-                <p className="about__stat-label">Alert Accuracy</p>
+                <div className="about__stat-label">Alert Accuracy</div>
               </div>
             </div>
           </div>
-          
-          <div className="about__features">
+          <div className="about__features-card">
             <h3 className="about__features-title">Key Features</h3>
-            <div className="about__features-list">
-              <div className="about__feature">
+            <div className="about__features-grid">
+              <div className="about__feature-block">
                 <div className="about__feature-icon about__feature-icon--blue">WAVE</div>
-                <span className="about__feature-text">Real-time tsunami detection & alerts</span>
+                <div className="about__feature-text">Real-time tsunami detection & alerts</div>
               </div>
-              <div className="about__feature">
+              <div className="about__feature-block">
                 <div className="about__feature-icon about__feature-icon--green">REPORT</div>
-                <span className="about__feature-text">Community-driven disaster reporting</span>
+                <div className="about__feature-text">Community-driven disaster reporting</div>
               </div>
-              <div className="about__feature">
+              <div className="about__feature-block">
                 <div className="about__feature-icon about__feature-icon--red">SOS</div>
-                <span className="about__feature-text">Emergency SOS signal system</span>
+                <div className="about__feature-text">Emergency SOS signal system</div>
               </div>
-              <div className="about__feature">
+              <div className="about__feature-block">
                 <div className="about__feature-icon about__feature-icon--purple">TARGET</div>
-                <span className="about__feature-text">Precise location-based warnings</span>
+                <div className="about__feature-text">Precise location-based warnings</div>
               </div>
-              <div className="about__feature">
+              <div className="about__feature-block">
                 <div className="about__feature-icon about__feature-icon--orange">SUPPORT</div>
-                <span className="about__feature-text">NGO & government coordination</span>
+                <div className="about__feature-text">NGO & government coordination</div>
               </div>
             </div>
           </div>
